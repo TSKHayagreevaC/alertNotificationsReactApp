@@ -1,0 +1,57 @@
+.alert-notifications-bg-container {
+  margin: 20px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin: 5px;
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+}
+
+.notification-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.notification-heading {
+  margin: 0px;
+}
+
+.notification-description {
+  margin: 3px 10px 3px 3px;
+  font-size: 18px;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
